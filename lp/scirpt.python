@@ -1,0 +1,34 @@
+def disfrutar_comida_compleja():
+    print("Hola, me gusta el pan")
+
+    # Algunas variables
+    repeticiones = 3
+
+    # Bucle principal
+    for i in range(1, repeticiones + 1):
+        print(f"Iteración {i}:")
+
+        if i % 2 == 0:
+            print("Disfrutando de una deliciosa sopa")
+        else:
+            print("Comiendo una sabrosa pizza")
+
+            # Bucle anidado
+            for j in range(1, 3 + 1):
+                print(f"  Sub-iteración {j}: Añadiendo ingredientes")
+
+        print("-----")
+
+    # Lista de ingredientes
+    ingredientes = ["aceitunas", "queso", "tomate", "albahaca"]
+
+    print("Ingredientes para la próxima comida:")
+    
+    # Bucle para imprimir ingredientes
+    for ingrediente in ingredientes:
+        print(f"  - {ingrediente}")
+
+    print("Terminando de disfrutar de la comida...")
+
+# Llamada a la función
+disfrutar_comida_compleja()

@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        DisfrutarComidaCompleja();
+    }
+
+    static void DisfrutarComidaCompleja()
+    {
+        Console.WriteLine("Hola, me gusta el pan");
+
+        // Algunas variables
+        int repeticiones = 3;
+
+        // Bucle principal
+        for (int i = 1; i <= repeticiones; i++)
+        {
+            Console.WriteLine($"Iteración {i}:");
+
+            if (i % 2 == 0)
+            {
+                Console.WriteLine("Disfrutando de una deliciosa sopa");
+            }
+            else
+            {
+                Console.WriteLine("Comiendo una sabrosa pizza");
+
+                // Bucle anidado
+                for (int j = 1; j <= 2; j++)
+                {
+                    Console.WriteLine($"  Sub-iteración {j}: Añadiendo ingredientes");
+                }
+            }
+
+            Console.WriteLine("-----");
+        }
+
+        // Lista de ingredientes
+        List<string> ingredientes = new List<string> { "aceitunas", "queso", "tomate", "albahaca" };
+
+        Console.WriteLine("Ingredientes para la próxima comida:");
+
+        // Bucle para imprimir ingredientes
+        foreach (var ingrediente in ingredientes)
+        {
+            Console.WriteLine($"  - {ingrediente}");
+        }
+
+        Console.WriteLine("Terminando de disfrutar de la comida...");
+    }
+}
