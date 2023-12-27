@@ -1,2 +1,1 @@
-var b="hola, mundo"
-console.log (b);
+console.log ("hola perro")
