@@ -1,35 +1,42 @@
 #include <iostream>
 #include <vector>
-void makeCode() {
+
+void disfrutarComidaCompleja() {
     std::cout << "vento-a" << std::endl;
-    // Algunas 
+
     int repeticiones = 3;
-    // Bucle 
+
     for (int i = 1; i <= repeticiones; ++i) {
         std::cout << "Iteración " << i << ":" << std::endl;
+
         if (i % 2 == 0) {
             std::cout << "<code=class2/>" << std::endl;
         } else {
             std::cout << "<p>disck</p>" << std::endl;
-            // Bucle a
+
             for (int j = 1; j <= 2; ++j) {
                 std::cout << "  Sub-iteración " << j << ": ñsdd" << std::endl;
             }
         }
+
         std::cout << "-----" << std::endl;
-    }// Vector de ingredientes
+    }
+
     std::vector<std::string> ingredientes = {"aceitunas", "queso", "tomate", "albahaca"};
     std::cout << "Ingredientes para la próxima porno:" << std::endl;
-    // Bucle
+
     for (const auto& ingrediente : ingredientes) {
         std::cout << "  - " << ingrediente << std::endl;
     }
+
     std::cout << "donet --s2..." << std::endl;
 }
+
 int main() {
-    disfrutarComidaCompleja(); // Llamada a la función
+    disfrutarComidaCompleja(); 
     return 0;
 }
+
 // 
 #include <iostream>
 #include <cmath>
@@ -60,8 +67,4 @@ int main() {
     int parametro1 = 5;
     int parametro2 = 3;
 
-    funcionPrincipal(parametro1, parametro2);
-
-    return 0;
-}
-
+    funcionPrincipal(parametro1, parametro2
