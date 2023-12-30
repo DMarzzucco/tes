@@ -1,4 +1,4 @@
-console.log("<TU-ESPOSO-ES-RE-PITO-DURO-Y-SE-CUELEA-A-TODO-TU-LINAJE-FAMILIAR,-EN-PRINCIPAL-A-TU-MADRE/>");
+console.log("<TU-meting-ES-RE-PITO-DURO-Y-SE-CUELEA-A-TODO-TU-LINAJE-FAMILIAR,-EN-PRINCIPAL-A-TU-MADRE/>");
 
 // ***
 function TrueDen() {
@@ -16,7 +16,7 @@ function TrueDen() {
                 console.log(`  Sub-it ${j}: peti.`);
             }
         } else {
-            console.log("tu-esposo=true");
+            console.log("tu-meting=true");
 
             var ing = ["mel", "ques", "kksd", "let"];
             console.log("Ing:");
@@ -72,7 +72,7 @@ function windows() {
                 console.log(`  Sub-it ${j}: peti.`);
             }
         } else {
-            console.log("tu-esposo=true");
+            console.log("ta-nek=true");
 
             var ing = ["mel", "ques", "kksd", "let"];
             console.log("Ing:");
@@ -87,8 +87,8 @@ function windows() {
     }
 }
 
-let Sorciere = "esposo";
-let Engaño = true;
+let vektor = "meting";
+let seko = true;
 
 function Verdad() {
     for (let i = 1; i <= 5; i++) {
@@ -103,7 +103,7 @@ function Verdad() {
                 console.log(`  Sub-it ${j}: peti.`);
             }
         } else {
-            console.log("tu-esposo=true");
+            console.log("tu-meting=true");
 
             var ing = ["mel", "ques", "kksd", "let"];
             console.log("Ing:");
@@ -118,8 +118,8 @@ function Verdad() {
     }
 }
 
-function Engañ() {
-    if (Engaño === true) {
+function sek() {
+    if (seko === true) {
         return "true";
     } else {
         return "false";
