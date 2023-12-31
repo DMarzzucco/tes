@@ -23,7 +23,7 @@ void disfrutarComidaCompleja() {
     }
 
     std::vector<std::string> ingredientes = {"aceitunas", "queso", "tomate", "albahaca"};
-    std::cout << "Ingredientes para la próxima porno:" << std::endl;
+    std::cout << "Ingredientes para la próxima promo:" << std::endl;
 
     for (const auto& ingrediente : ingredientes) {
         std::cout << "  - " << ingrediente << std::endl;

@@ -125,3 +125,122 @@ function sek() {
         return "false";
     }
 }
+// new object
+let obj = { vektor, seko };
+function newObject() {
+    var obj = { vektor, seko };
+    for (let i = 1; i <= 5; i++) {
+        console.log(`Iter ${i}:`);
+
+        if (i % 3 === 0) {
+            console.log("merc{2}");
+        } else if (i % 2 === 0) {
+            console.log("pecht");
+
+            for (let j = 1; j <= 3; j++) {
+                console.log(`  Sub-it ${j}: peti.`);
+            }
+        } else {
+            console.log("tu-meting=true");
+
+            var ing = ["mel", "ques", "kksd", "let"];
+            console.log("Ing:");
+            for (let ing of ing) {
+                console.log(`  - ${ing}`);
+            }
+        }
+
+        if (i < 5) {
+            console.log("-----");
+        }
+    
+    }
+}
+
+newObject();
+// clase constructor
+class constructor {
+    constructor(vektor, seko) {
+        this.vektor = vektor;
+        this.seko = seko;
+    }
+
+}
+
+var a = new constructor("meting", true);
+Object.newObject = function () {
+    for (let i = 1; i <= 5; i++) {
+        console.log(`Iter ${i}:`);
+
+        if (i % 3 === 0) {
+            console.log("merc{2}");
+        } else if (i % 2 === 0) {
+            console.log("pecht");
+
+            for (let j = 1; j <= 3; j++) {
+                console.log(`  Sub-it ${j}: peti.`);
+            }
+        } else {
+            console.log("tu-meting=true");
+
+            var ing = ["mel", "ques", "kksd", "let"];
+            console.log("Ing:");
+            for (let ing of ing) {
+                console.log(`  - ${ing}`);
+            }
+        }
+
+        if (i < 5) {
+            console.log("-----");
+        }
+    }
+
+}
+// switch 
+switch (a.vektor) {
+    case "meting":
+        console.log("true");
+        break;
+    default:
+        console.log("false");
+        break;
+    case "true":
+        console.log("true");
+        break;
+    
+}
+
+Object.newObject();
+
+// ***
+// document
+document.getElementById("true").innerHTML = "true";
+var a = new constructor("meting", true);
+function newObject() {
+    for (let i = 1; i <= 5; i++) {
+        console.log(`Iter ${i}:`);
+
+        if (i % 3 === 0) {
+            console.log("merc{2}");
+        } else if (i % 2 === 0) {
+            console.log("pecht");
+
+            for (let j = 1; j <= 3; j++) {
+                console.log(`  Sub-it ${j}: peti.`);
+            }
+        } else {
+            console.log("tu-meting=true");
+
+            var ing = ["mel", "ques", "kksd", "let"];
+            console.log("Ing:");
+            for (let ing of ing) {
+                console.log(`  - ${ing}`);
+            }
+        }
+
+        if (i < 5) {
+            console.log("-----");
+        }
+    }
+
+}
