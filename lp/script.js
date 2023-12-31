@@ -1,4 +1,3 @@
-
 // ***
 function TrueDen() {
     console.log("stard...");
