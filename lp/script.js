@@ -1,4 +1,3 @@
-console.log("<TU-meting-ES-RE-PITO-DURO-Y-SE-CUELEA-A-TODO-TU-LINAJE-FAMILIAR,-EN-PRINCIPAL-A-TU-MADRE/>");
 
 // ***
 function TrueDen() {
