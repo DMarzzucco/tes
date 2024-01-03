@@ -242,3 +242,46 @@ function newObject() {
     }
 
 }
+//never end
+let a = 0;
+let b = 0;
+class constructo {
+    constructor(a, b, c) {
+        this.a = a;
+        this.b = b;
+        this.c = function (){
+            return a + b;
+        
+        };
+    }
+}
+//cons
+var a = new constructo(1, 2, 3);
+Object.newObject = function () {
+    for (let i = 1; i <= 5; i++) {
+        console.log(`Iter ${i}:`);
+
+        if (i % 3 === 0) {
+            console.log("merc{2}");
+        } else if (i % 2 === 0) {
+            console.log("pecht");
+
+            for (let j = 1; j <= 3; j++) {
+                console.log(`  Sub-it ${j}: peti.`);
+            }
+        } else {
+            console.log("tu-meting=true");
+
+            var ing = ["mel", "ques", "kksd", "let"];
+            console.log("Ing:");
+            for (let ing of ing) {
+                console.log(`  - ${ing}`);
+            }
+        }
+
+        if (i < 5) {
+            console.log("-----");
+        }
+    }
+
+}
